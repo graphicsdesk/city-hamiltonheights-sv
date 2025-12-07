@@ -1,6 +1,8 @@
 const isMobile = window.innerWidth < 768;
 const tooltip = d3.select("#tooltip");
 
+import data from './data.json';
+
 const map = L.map("map", { minZoom: 13, maxZoom: 16, scrollWheelZoom: !isMobile, zoomControl: !isMobile }).setView([40.82, -73.96], 13);
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution: "&copy; OpenStreetMap contributors",
@@ -41,8 +43,6 @@ var pinIcon = L.divIcon({
     iconSize: [34, 34],
     iconAnchor: [17, 6],
 });
-
-console.log("test")
 
 const morningsideMarker = L.marker([40.80785, -73.9623], { icon: pinIcon }).addTo(map);
 morningsideMarker.bindPopup("<b>Columbia&rsquo;s Morningside campus</b>");
@@ -85,9 +85,6 @@ function hideTooltip() {
 
 (async function () {
     try {
-        const res = await fetch("./scripts/data.geojson");
-        const data = await res.json();
-
         const svgLayer = L.svg();
         svgLayer.addTo(map);
 
