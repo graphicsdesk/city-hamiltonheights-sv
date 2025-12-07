@@ -7,12 +7,38 @@
       "root": "./src/partials",
       "locals": {
         "top": [],
-        "body": [],
+        "body": [
+          {
+            "type": "graphic",
+            "value": {
+              "asset": "map.html"
+            }
+          },
+          {
+            "type": "text",
+            "value": "<i>Deputy Editor Surina Venkat can be contacted at </i><a href=\"mailto:surina.venkat@columbiaspectator.com\"><i>surina.venkat@columbiaspectator.com</i></a><i>. Follow her on X </i><a href=\"https://x.com/surinavenkat\"><i>@surinavenkat</i></a><i>.</i>"
+          },
+          {
+            "type": "text",
+            "value": "<i>Graphics Associate Sita Vemuri can be contacted at </i><a href=\"mailto:sita.vemuri@columbiaspectator.com\"><i>sita.vemuri@columbiaspectator.com</i></a><i>. </i><i>Follow Spectator on X </i><a href=\"https://twitter.com/columbiaspec?lang=en\"><i>@ColumbiaSpec</i></a><i>.</i>"
+          },
+          {
+            "type": "text",
+            "value": "<b><i>Want to keep up with breaking news? Subscribe to our </i></b><a href=\"https://columbiaspectator.us4.list-manage.com/subscribe?u=a3d2eeb1ae5560ca04f82f042&id=e51c51d62d\"><b><i>email newsletter</i></b></a><b><i> and like Spectator on </i></b><a href=\"https://www.facebook.com/columbiaspectator\"><b><i>Facebook</i></b></a><b><i>. </i></b>"
+          }
+        ],
+        "headline": "Over a year after a shooting in Hamilton Heights, a promised town hall on community safety still hasn’t materialized",
+        "dek": "District 7 City Councilmember Shaun Abreu and Precinct 30 Captain Cary Rose agreed to hold a series of town halls in Hamilton Heights after a young girl was shot in the area in 2024.",
+        "date": "December 4, 2025",
+        "byline": "By <a href=\"https://www.columbiaspectator.com/contributors/surina-venkat/\">Surina Venkat</a>",
+        "byline2": "Graphics by <a href=\"https://www.columbiaspectator.com/contributors/sita-vemuri/\">Sita Vemuri</a>",
+        "cover_asset": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/PD7L5QGMEJAUNK5B75HUUVEKOM.jpg",
+        "cover_caption": "Eliza Lamster / Columbia Daily Spectator",
         "USE_NEWS_NAV": true,
         "USE_EYE_NAV": false,
-        "USE_COVER_HED": false,
+        "USE_COVER_HED": true,
         "IS_EMBED": false,
-        "DOC_URL": null
+        "DOC_URL": "https://docs.google.com/document/d/1jSYF169-G_RrqdsL0pOSb0JFVdSrVZ3jLVSseOVeIyg/edit?tab=t.0"
       }
     }
   }
