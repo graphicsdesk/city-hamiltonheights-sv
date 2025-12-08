@@ -5,8 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </head>
     <body>
-        <div class="w-screen md:h-screen flex flex-col md:flex-row">
-            <figure class="sticky top-0 h-screen md:w-1/2 w-full overflow-hidden z-0 m-0">
+        <div class="w-screen flex flex-col md:flex-row md:sticky md:top-0">
+            <figure class="sticky top-0 h-screen md:pt-[48px] md:w-1/2 w-full overflow-hidden z-0 m-0">
                 <div id="map" class="relative w-full h-full">
                     <svg id="overlay" class="absolute top-0 left-0"></svg>
                 </div>
@@ -14,7 +14,7 @@
 
             <div id="tooltip" class="absolute bg-white text-black p-1 text-xs sm:text-sm hidden pointer-events-none"></div>
 
-            <div class="relative z-10 flex flex-col items-center text-sm md:text-base md:w-1/2 md:h-screen md:items-start md:overflow-y-scroll md:p-8 md:gap-4 md:p-0 mb-[100vh]">
+            <div class="relative z-10 flex flex-col items-center text-sm md:text-base md:w-1/2 md:items-start md:px-8 md:pt-[64px] md:pb-[16px] md:gap-4 mb-[100vh] md:m-0">
                 <div class="h-[75vh] flex items-center justify-center p-4 md:p-0 md:h-auto md:flex-none md:items-start md:justify-start md:w-full">
                     <p class="bg-white p-4 md:p-0 rounded-md shadow-lg md:bg-transparent md:p-0 md:shadow-none">In the wake of a Nov. 7, 2024, shooting that injured a seven-year-old girl in Hamilton Heights, local officials said they would hold a town hall with residents to discuss public safety amid heightened community fears and media coverage.</p>
                 </div>
