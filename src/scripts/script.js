@@ -124,7 +124,7 @@ function hideTooltip() {
             });
 
             if (lines.length > 0) {
-                updateTooltip(lines, e.originalEvent.pageX + 10, e.originalEvent.pageY - 28);
+                updateTooltip(lines, e.originalEvent.clientX + 10, e.originalEvent.clientY - 28);
             } else {
                 hideTooltip();
             }
