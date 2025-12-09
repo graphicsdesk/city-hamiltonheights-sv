@@ -120,7 +120,7 @@ b {
     background-color: rgba(0, 0, 0, 0.6);
     max-width: 700px;
     color: #fff;
-    transform: translateY(-150%); // TODO: do better;
+    transform: translateY(-135%); // TODO: do better;
     align-items: center;
 
     p,
@@ -145,14 +145,14 @@ b {
 @media (max-width: 500px) {
   .cover-hed header {
     margin-top: 50%;
-    transform: translateY(-138%);
+    transform: translateY(-170%);
   }  
 }
 
 @media (max-width: 400px) {
   .cover-hed header {
     margin-top: 50%;
-    transform: translateY(-130%);
+    transform: translateY(-143%);
   }  
 }
 

@@ -130,6 +130,10 @@ function hideTooltip() {
             }
         });
 
+        map.on('mouseout', function(e) {
+            hideTooltip();
+        });
+
         map.on("moveend", drawOverlay);
 
         function drawOverlay() {
