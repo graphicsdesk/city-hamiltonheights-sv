@@ -156,6 +156,13 @@ b {
   }  
 }
 
+@media (max-width: 340px) {
+  .cover-hed header {
+    margin-top: 50%;
+    transform: translateY(-124%);
+  }  
+}
+
 #headline {
   max-width: unset !important;
 }
