@@ -62,7 +62,7 @@ function featuresAtLatLng(latlng, features) {
 
 function updateTooltip(lines, x, y) {
     const html = lines.map((line) => `<div style="padding: 4px 8px; margin: 0; background:${line.bg}; color:${line.color};">${line.text}</div>`).join("");
-    tooltip.html(html).style("background", "transparent").style("position", "absolute").style("display", "block");
+    tooltip.html(html).style("background", "transparent").style("position", "fixed").style("display", "block");
 
     const tooltipNode = tooltip.node();
     const tooltipWidth = tooltipNode.offsetWidth;
